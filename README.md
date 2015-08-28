@@ -7,8 +7,9 @@ After using the brilliant [CodeKit](https://incident57.com/codekit/) app for som
 
 I am using the standard LESS version of Bootstrap purely as I'm most familiar but will look at using the SASS version in the future if I can demonstrate a need.
 
-JS/CSS Frameworks:
+HTML/CSS/JS Frameworks:
 
+- HTML5 Boilerplate (modified)
 - Modernizr
 - JQuery
 - Bootstrap
