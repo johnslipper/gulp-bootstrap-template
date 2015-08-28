@@ -1,0 +1,29 @@
+{
+  "name": "gulp-workflow-template",
+  "version": "1.0.0",
+  "description": "Gulp workflow template to mimic CodeKit-style setup",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-imports": "0.0.3",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.3.0",
+    "less-plugin-glob": "^1.1.0"
+  },
+  "author": "@johnslipper",
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "browsersync",
+    "less",
+    "jshint",
+    "cssminify",
+    "autoprefixer"
+  ]
+}

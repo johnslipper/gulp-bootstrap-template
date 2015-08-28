@@ -1,0 +1,4 @@
+// DOM Ready Code
+$(function() {
+	
+});

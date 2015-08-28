@@ -1,0 +1,12 @@
+//import("../vendor/bootstrap/js/affix.js");
+//import("../vendor/bootstrap/js/alert.js");
+//import("../vendor/bootstrap/js/button.js");
+//import("../vendor/bootstrap/js/carousel.js");
+//import("../vendor/bootstrap/js/collapse.js");
+//import("../vendor/bootstrap/js/dropdown.js");
+//import("../vendor/bootstrap/js/modal.js");
+//import("../vendor/bootstrap/js/scrollspy.js");
+//import("../vendor/bootstrap/js/tab.js");
+//import("../vendor/bootstrap/js/tooltip.js");
+//import("../vendor/bootstrap/js/popover.js");
+//import("../vendor/bootstrap/js/transition.js");

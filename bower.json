@@ -1,0 +1,31 @@
+{
+  "name": "gulp-bootstrap-template",
+  "version": "1.0.0",
+  "authors": [
+    "@johnslipper"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "description": "Gulp bootstrap template to mimic CodeKit-style setup",
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3"
+  },
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "html5boilerplate",
+    "bootstrap",
+    "less",
+    "modernizr"
+  ]
+}
