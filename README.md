@@ -41,12 +41,12 @@ Finally run **gulp** to start all the watch tasks and open the project in a loca
 
 Browsersync 'Live Reloading'
 ----------------------------
-The local server will automatically reload on any HTML, JS or LESS file changes in the project root, *js/* and *less/* folders respectively.
+The local server will automatically reload on any HTML, JS or LESS file changes in the project root, **js/** and **less/** folders respectively.
 
 
 JavaScript Features
 -------------------
-JavaScript files stored in the project's *js/* folder will be passed through the following:
+JavaScript files stored in the project's **js/** folder will be passed through the following:
 
 - JavaScript concatenation via gulp-imports.
 - JavaScript hinting via gulp-jshint.
@@ -54,16 +54,16 @@ JavaScript files stored in the project's *js/* folder will be passed through the
 
 JS import functionality is achieved by including following comment inside you JS files:
 
-*//import("../vendor/PATH TO JS FILE HERE.js");*
+**//import("../vendor/PATH TO JS FILE HERE.js");**
 
-The above example uses bower */vendor* folder as this is my primary use for it.
+The above example uses bower **/vendor** folder as this is my primary use for it.
 
-All processed JavaScript files are output in the *js/min/* folder and renamed with the extension *.min.js*
+All processed JavaScript files are output in the **js/min/** folder and renamed with the extension **.min.js**
 
 
 LESS/CSS Features
 -----------------
-LESS folders stored in the *less/* folder will be passed through the following:
+LESS folders stored in the **less/** folder will be passed through the following:
 
 - LESS concatenation and CSS pre-proccesing with gulp-less and less-plugin-glob.
 - CSS Autoprefixing with gulp-autoprefixer.
@@ -71,9 +71,9 @@ LESS folders stored in the *less/* folder will be passed through the following:
 
 To use LESS importing include the following inside your LESS files:
 
-*@import "../vendor/PATH TO LESS FILE HERE.less";*
+**@import "../vendor/PATH TO LESS FILE HERE.less";**
 
-The above example uses bower */vendor* folder as this is my primary use for it but there is also the *less/includes/* folder to allow a modular approach to your own styling. Files in this folder will not be processed directly and will need to be included in a file in the parent folder to make it into the final CSS. You can find a sample *less/variables.less* file as an example how to generate a more customised bootstrap CSS and avoid unecessary style overrides.
+The above example uses bower **/vendor** folder as this is my primary use for it but there is also the **less/includes/** folder to allow a modular approach to your own styling. Files in this folder will not be processed directly and will need to be included in a file in the parent folder to make it into the final CSS. You can find a sample **less/variables.less** file as an example how to generate a more customised bootstrap CSS and avoid unecessary style overrides.
 
 
 Roadmap
